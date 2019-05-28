@@ -227,9 +227,9 @@ func (p *Palette) resize() {
 	if p.ws.uiAttached {
 		fuzzy.UpdateMax(p.ws.nvim, p.showTotal)
 	}
-	for i := p.showTotal; i < len(p.resultItems); i++ {
-		p.resultItems[i].hide()
-	}
+	// for i := p.showTotal; i < len(p.resultItems); i++ {
+	// 	p.resultItems[i].hide()
+	// }
 	// }()
 }
 
